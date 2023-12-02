@@ -1,8 +1,19 @@
-# Getting Started with Create React App
+# MERN React App to Track Exercises
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project utilises the MERN stack. MongoDB Atlas, Express, React, and Node.js. It also uses Bootstrap for styling elements. 
+
+## To Work With Your Own Database
+
+Update the .env file with your ATLAS_URI to connect to your own database.
 
 ## Available Scripts
+
+In the backend directory, you can run:
+
+### `nodemon server`
+
+Runs the backend of the application to complete the appropriate routes the application needs. \
+Hosts the server on [http://localhost:5000]
 
 In the project directory, you can run:
 
@@ -65,6 +76,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
